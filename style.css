@@ -93,7 +93,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("img/.vscode/22112.jpg");
+  background-image: url("img/22112.jpg");
   background-size: cover;
   background-size: cover;
   background-position: center;
@@ -196,12 +196,12 @@ body {
 }
 
 .about .row .content p {
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   font-size: 1.4rem;
-  font-weight: 300;
-  line-height: 1.7;
+  font-weight: 100;
+  line-height: 2;
   text-align: center;
-  font-style: unset;
+  font-style: italic;
 }
 
 /* End About */
@@ -239,11 +239,11 @@ body {
 
 .menu .row .menu-card img {
   border-image-width: 100%;
-  border-radius: 15%;
+  border-radius: 46%;
   width: 80%;
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(img/.vscode/image.png) 30 stretch;
+  border: 25px solid transparent;
+  padding: 12px;
+  border-image: url(img/212122.jpeg) 50 stretch;
 }
 
 .menu .row .menu-card .menu-card-title {

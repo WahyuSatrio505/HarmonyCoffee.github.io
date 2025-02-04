@@ -48,7 +48,7 @@ body {
 .navbar .navbar-logo {
   font-size: 2rem;
   font-weight: 700;
-  color: #fff;
+  color: #e6e3e3;
   font-style: italic;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .navbar .navbar-nav a:hover {
-  color: #b35c0b;
+  color: #d2b69c;
 }
 
 .navbar .navbar-nav a::after {
@@ -81,8 +81,9 @@ body {
 }
 
 .navbar .navbar-extra a {
-  color: #fff;
+  color: #ffffff;
   margin: 0 0.5rem;
+  margin-left: 1.3rem;
 }
 
 .navbar .navbar-extra a:hover {
@@ -91,6 +92,7 @@ body {
 
 #hamburger-menu {
   display: none;
+  color: #fff6f3;
 }
 
 /* Hero Section */
@@ -210,6 +212,14 @@ body {
   font-style: italic;
 }
 
+.about {
+  border-radius: 1.1em;
+  border-style: groove;
+  border-color: #655326;
+  animation-delay: 2s;
+  border: 0.3em solid #464031; /* Border */
+}
+
 /* End About */
 
 /* Menu*/
@@ -244,12 +254,10 @@ body {
 }
 
 .menu .row .menu-card img {
-  border-image-width: 100%;
-  border-radius: 46%;
+  border-image-width: 10%;
+  border-radius: 50%;
   width: 80%;
   border: 25px solid transparent;
-  padding: 12px;
-  border-image: url(img/212122.jpeg) 50 stretch;
 }
 
 .menu .row .menu-card .menu-card-title {
@@ -301,6 +309,14 @@ body {
   color: #ffffff;
   background-color: var(--primary);
   cursor: pointer;
+}
+
+.menu{
+  border-radius: 1.1em;
+  border-style: groove;
+  border-color: #655326;
+  animation-delay: 2s;
+  border: 0.3em solid #464031; /* Border */
 }
 
 /* Footer */
